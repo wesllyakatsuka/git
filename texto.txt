@@ -22,8 +22,13 @@ git add .
 //am = add e mensagem
 git commit am "Editando..."
 
+git log
+//exibe o histórico
 
 
+git checkout ec26f2205d220abc71a89c21f60295fcbf8c2c3a
+//adicione o código de um comit na frente do Comandos
 
-
+git log --oneline --graph --decorate --all 
+//comando que detalha bem o HEAD e MASTER
 
