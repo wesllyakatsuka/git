@@ -1,0 +1,14 @@
+Comandos
+
+
+git status
+//Exibe tudos os arquivos dentro de uma pasta e aponta se estão ou não sendo rastreados
+
+git config --global -l
+//lista o nome de usuário e email que estão configurados. Também exibe outras preferências que forma customizadas.
+
+git config --global core.editor
+
+
+
+
