@@ -10,9 +10,17 @@ git config --global -l
 git config --global core.editor
 //configurar seu editor preferido
 
+//Adicionar a stage do github
 git add "nome do arquivo com extensão e em aspas"
 
+//deixar um breve comentário e submeter
 git commit -m "Comente o que foi alterado"
+
+//adiciona todos os arquivos de uma só vez
+git add .
+
+//am = add e mensagem
+git commit am "Editando..."
 
 
 
