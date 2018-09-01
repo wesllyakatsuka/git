@@ -40,3 +40,4 @@ git remote add origin https://github.com/wesllyakatsuka/git.git
 git push -u origin master
 //sobe no github o último arquivo
 
+//criando
