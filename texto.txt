@@ -8,6 +8,13 @@ git config --global -l
 //lista o nome de usuário e email que estão configurados. Também exibe outras preferências que forma customizadas.
 
 git config --global core.editor
+//configurar seu editor preferido
+
+git add "nome do arquivo com extensão e em aspas"
+
+git commit -m "Comente o que foi alterado"
+
+
 
 
 
