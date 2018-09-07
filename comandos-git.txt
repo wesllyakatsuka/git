@@ -43,7 +43,7 @@ git push -u origin master
 git branch
 //consultando as branch que existem
 
-git branch nova-branch
+git branch nomeDaNovaBranch
 //criando nova branch
 
 git checkout nova-branch
@@ -51,5 +51,15 @@ git checkout nova-branch
 
 git checkout master
 //retornando para a master
+
+git log --graph
+//Exibe detalhes dos mergers realizado
+
+git branch -d alternativa
+//Exclui branch alternativa
+
+git checkout -b alternativa2
+//Cria uma nova branch chamada alternativa 2 e já se loga nela.
+
 
 
