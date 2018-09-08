@@ -68,4 +68,4 @@ git commit -m "criação da página de contato #2"
 //trabalhando com  o recurso Issue - o comando cria um rastreio usando o sustenido.
 
 git commit -m "alteração final da página de contato closes #2"
-//A inclusão da palavra CLOSES segudi do sustenido, fecha e dá como encerrada a issue e branch.
+//A inclusão da palavra CLOSES seguida do sustenido, fecha e dá como encerrada a issue e branch.
