@@ -59,7 +59,13 @@ git branch -d alternativa
 //Exclui branch alternativa
 
 git checkout -b alternativa2
-//Cria uma nova branch chamada alternativa 2 e já se loga nela.
+//Cria uma nova branch chamada alternativa2 e já se loga nela.
 
+git merge final 
+//Junta os arquivos.
 
+git commit -m "criação da página de contato #2"
+//trabalhando com  o recurso Issue - o comando cria um rastreio usando o sustenido.
 
+git commit -m "alteração final da página de contato closes #2"
+//A inclusão da palavra CLOSES segudi do sustenido, fecha e dá como encerrada a issue e branch.
