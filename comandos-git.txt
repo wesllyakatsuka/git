@@ -1,4 +1,4 @@
-Comandos
+﻿Comandos
 
 
 git status
@@ -71,6 +71,8 @@ git commit -m "alteração final da página de contato closes #2"
 //A inclusão da palavra CLOSES seguida do sustenido, fecha e dá como encerrada a issue e branch.
 
 Seção 5 
+---------------------------------------------------------------------------------------------------
+Preparando um churrasco
 
 
 
