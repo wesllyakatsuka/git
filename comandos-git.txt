@@ -1,5 +1,10 @@
 ﻿Comandos
 
+git config --global user.name "wesllyakatsuka"
+//Configura o seu nome de usuário (Tem que ser o mesmo cadastrado  no memomento da conta)
+
+git config --global user.email wesllyakatsuka@gmail.com
+//Configura o seu nome de usuário (Tem que ser o mesmo cadastrado  no memomento da conta)
 
 git status
 //Exibe tudos os arquivos dentro de uma pasta e aponta se estão ou não sendo rastreados
@@ -71,8 +76,6 @@ git commit -m "alteração final da página de contato closes #2"
 //A inclusão da palavra CLOSES seguida do sustenido, fecha e dá como encerrada a issue e branch.
 
 Seção 5 
----------------------------------------------------------------------------------------------------
-Preparando um churrasco
 
 
 
