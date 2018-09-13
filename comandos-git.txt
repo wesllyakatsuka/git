@@ -12,7 +12,7 @@ git config --global user.name "wesllyakatsuka"
 //Configura o seu nome de usuário (Tem que ser o mesmo cadastrado  no memomento da conta)
 
 git config --global user.email "insiraSeuEmail@gmail.com - sem aspas"
-//Configura o seu nome de usuário (Tem que ser o mesmo cadastrado  no memomento da conta)
+//Configura o seu nome de usuário (Tem que ser o mesmo cadastrado na criação da conta)
 
 git status
 //Exibe tudos os arquivos dentro de uma pasta e aponta se estão ou não sendo rastreados
