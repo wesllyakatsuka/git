@@ -11,7 +11,7 @@ git push -u origin master
 git config --global user.name "wesllyakatsuka"
 //Configura o seu nome de usuário (Tem que ser o mesmo cadastrado  no memomento da conta)
 
-git config --global user.email wesllyakatsuka@gmail.com
+git config --global user.email "insiraSeuEmail@gmail.com - sem aspas"
 //Configura o seu nome de usuário (Tem que ser o mesmo cadastrado  no memomento da conta)
 
 git status
