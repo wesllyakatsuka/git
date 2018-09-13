@@ -1,5 +1,13 @@
 ﻿Comandos
 
+https://github.com/wesllyakatsuka/git.git
+
+git add --all
+git commit -m 'mensagem'
+git pull origin master
+git push -u origin master
+
+
 git config --global user.name "wesllyakatsuka"
 //Configura o seu nome de usuário (Tem que ser o mesmo cadastrado  no memomento da conta)
 
