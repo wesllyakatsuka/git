@@ -1,4 +1,4 @@
-﻿Alguns Comandos utilizados com frequência
+﻿Comandos
 
 https://github.com/wesllyakatsuka/git.git
 
