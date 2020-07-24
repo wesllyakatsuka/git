@@ -1,4 +1,4 @@
-﻿Alguns Comandos
+﻿Comandos
 
 https://github.com/wesllyakatsuka/git.git
 
@@ -39,7 +39,7 @@ git log
 //exibe o histórico
 
 git checkout ec26f2205d220abc71a89c21f60295fcbf8c2c3a
-//adicione o código de um comit na frente do Comandos, permite enxergar determinada versão do arquivo
+//adicione o código de um commit na frente do Comandos, permite enxergar determinada versão do arquivo
 
 git log --oneline --graph --decorate --all 
 //comando que detalha bem o HEAD e MASTER
@@ -82,6 +82,10 @@ git commit -m "criação da página de contato #2"
 
 git commit -m "alteração final da página de contato closes #2"
 //A inclusão da palavra CLOSES seguida do sustenido, fecha e dá como encerrada a issue e branch.
+
+:
+//Digite a tecla "Q" para sair
+
 
 Seção 5 
 
