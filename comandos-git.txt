@@ -65,6 +65,10 @@ git checkout nova-branch
 git checkout master
 //retornando para a master
 
+git merge nomeDaNovaBranch
+//Logado na branch master, junta os arquivos da outra branch nomeDaNovaBranch a master, na 
+modalidade Fast-forward 
+
 git log --graph
 //Exibe detalhes dos mergers realizado
 
