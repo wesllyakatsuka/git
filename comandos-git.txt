@@ -91,7 +91,46 @@ git commit -m "alteração final da página de contato closes #2"
 //Digite a tecla "Q" para sair
 
 
-Seção 5 
+	Seção 5 
+
+git checkout nomeDoSeuArquivo.txt
+//Esse comando permite que você apague as alterações 
+
+git reset head nomeDoSeuArquivo.txt
+//realizar alterações que já estão na stage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
