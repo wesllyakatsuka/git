@@ -97,27 +97,31 @@ git checkout nomeDoSeuArquivo.txt
 //Esse comando permite que você apague as alterações 
 
 git reset head nomeDoSeuArquivo.txt
-//realizar alterações que já estão na stage
+//Realizar alterações que já estão na stage
+
+git reset head^
+//Volta um passe anterior. OBS: Se usar ^^ volta 2 passos, ^^^ 3 passos e assim por diante.
+
+git rm --cached nomeDoSeuArquivo.txt
+//Git deixa de rastrear as alterações feita nesse arquivo
+
+git checkout (e inseri o código do hash do log)
+//Pode desfazer e voltar a rastrear
+
+git reset --hard (e inseri o código do hash do log)
+//Apaga tudo dentro dos commits e não tem volta
+
+git remote add upstream (url do repositório principal que foi feito o Fork)
+//Permite rastrear as alterações de um repositório de terceiros que foi copiado como Fork
+
+git remote -v
+//Exibe quantos projetos remotos contém
+
+git pull upstream master
+//Sincroniza os nosso repositório local com o repositório principal
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	Secão 6 
 
 
 
