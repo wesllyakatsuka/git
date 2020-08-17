@@ -1,6 +1,12 @@
-﻿Comandos
+﻿ 	Comandos
 
 https://github.com/wesllyakatsuka/git.git
+
+//fluxo usado para subir alterações em um repositório clonado
+git add --all
+git commit -m 'mensagem'
+git pull origin master
+git push -u origin master
 
 		…or create a new repository on the command line
 echo "# teste" >> README.md
@@ -10,14 +16,17 @@ git commit -m "first commit"
 git remote add origin https://github.com/wesllyakatsuka/teste.git
 git push -u origin master
 
-git add --all
-git commit -m 'mensagem'
-git pull origin master
-git push -u origin master
-
 		…or push an existing repository from the command line
 git remote add origin https://github.com/wesllyakatsuka/teste.git
 git push -u origin master
+
+
+//Não conseguia enviar arquivos para repositório recém criado com os caomandos acima e com os comandos abaixo tudo se resolveu.
+git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
+
 
 
 git config --global user.name "wesllyakatsuka"
