@@ -142,7 +142,7 @@ git pull upstream master
 //Sincroniza os nosso repositório local com o repositório principal
 
 
-	Secão 6 
+	Secão 6 - Rebase
 
 
 
