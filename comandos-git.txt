@@ -187,6 +187,60 @@ git push
 
 
 	Seção 9 - Git Stash
+//Funciona como uma pilha 
+
+git stash
+//salva as alterações na outra branch criada 
+
+git stash apply
+//faz uma espécie de merge com os arquivos da outra branch que foram criados anteriormente
+
+git stash save "mensagem"
+//personaliza a mensagem
+
+git stash list
+//lista os arquivos
+
+git stash list --stat
+//lista detalhadamente todas as alterações
+
+git stash show --patch
+//exibe as alterações realizadas. Semelhante ao comando "diff"
+
+git stash pop
+//exclui
+
+git status
+
+git stash --keep-index
+//determina apenas os arquivos 
+
+
+	Seção 10 - Projeto - Parte 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
