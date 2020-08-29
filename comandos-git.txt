@@ -149,7 +149,44 @@ git pull upstream master
 
 	Seção 8 - Single Repository Workflow
 
+//Revisando o Fluxo
 
+git clone
+git checkout -b, git add, git commit
+git push
+Pull request
+git pull
+
+
+git add . && git commit -m 'mensagem'
+//É possível enviar os comandos concatenados
+
+git reset --hard head^  
+//apaga o commit anterior porque não havia permissão no repositório para esse usuário
+
+git branch -a
+//exibe as branches que tenho permissão de acesso
+
+git checout 'nomeDaBranch'
+//faz um track da branch remota
+
+git log --oneline
+//exibe o histórico com o hash e as mensagens do que foi criado pelo outro contribuidor
+
+git pull --rebase
+//exibe o conflito 
+
+git add . && git rebase --continue
+//submete tudo novamente após o ajuste manual no editor
+
+git log --oneline
+//para visualizar como ficou o histórico após o ajuste
+
+git push
+//com tudo ok, envia
+
+
+	Seção 9 - Git Stash
 
 
 
