@@ -8,7 +8,8 @@ git commit -m 'mensagem'
 git pull origin master
 git push -u origin master
 
-		…or create a new repository on the command line
+
+//or create a new repository on the command line
 echo "# teste" >> README.md
 git init
 git add README.md
@@ -16,7 +17,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/wesllyakatsuka/teste.git
 git push -u origin master
 
-		…or push an existing repository from the command line
+
+//or push an existing repository from the command line
 git remote add origin https://github.com/wesllyakatsuka/teste.git
 git push -u origin master
 
@@ -26,8 +28,7 @@ git fetch origin master:tmp
 git rebase tmp
 git push origin HEAD:master
 git branch -D tmp
-
-
+--------------------------------------------------------------------------------------------------------------------------------
 
 git config --global user.name "wesllyakatsuka"
 //Configura o seu nome de usuário (Tem que ser o mesmo cadastrado  no memomento da conta)
@@ -100,7 +101,7 @@ git checkout -b alternativa2
 //Cria uma nova branch chamada alternativa2 e já se loga nela.
 
 git merge final 
-//Junta os arquivos.
+//Junta os arquivos.  
 
 git commit -m "criação da página de contato #2"
 //trabalhando com  o recurso Issue - o comando cria um rastreio usando o sustenido.
@@ -146,7 +147,7 @@ git pull upstream master
 
 
 
-
+	Seção 8 - Single Repository Workflow
 
 
 
