@@ -8,6 +8,7 @@ git commit -m 'mensagem'
 git pull origin master
 git push -u origin master
 
+https://github.com/wesllyakatsuka/java-beginner.git
 
 //or create a new repository on the command line
 echo "# teste" >> README.md
@@ -16,15 +17,18 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/wesllyakatsuka/teste.git
 git push -u origin master
+git --global
 
 
 //or push an existing repository from the command line
-git remote add origin https://github.com/wesllyakatsuka/teste.git
+git add .
+git commit -m 'insira a mensagem'
+git remote add origin https://github.com/wesllyakatsuka/java-beginner.git
 git push -u origin master
 
 
 //Não conseguia enviar arquivos para repositório recém criado com os caomandos acima e com os comandos abaixo tudo se resolveu.
-git fetch origin master:tmp
+git fetch origin master:tmp 
 git rebase tmp
 git push origin HEAD:master
 git branch -D tmp
