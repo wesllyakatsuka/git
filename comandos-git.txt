@@ -8,6 +8,8 @@ git commit -m 'mensagem'
 git pull origin master
 git push -u origin master
 
+https://github.com/wesllyakatsuka/java.git
+
 https://github.com/wesllyakatsuka/java-beginner.git
 
 //or create a new repository on the command line
@@ -15,7 +17,7 @@ echo "# teste" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/wesllyakatsuka/teste.git
+git remote add origin https://github.com/wesllyakatsuka/java.git
 git push -u origin master
 git --global
 
@@ -23,7 +25,7 @@ git --global
 //or push an existing repository from the command line
 git add .
 git commit -m 'insira a mensagem'
-git remote add origin https://github.com/wesllyakatsuka/java-beginner.git
+git remote add origin https://github.com/wesllyakatsuka/java.git
 git push -u origin master
 
 
